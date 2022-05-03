@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:divider="?android:dividerHorizontal"
+    android:showDividers="end">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/itemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
+            android:text="@string/item_title"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/itemDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemTitle"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
+            android:text="@string/item_details" />
+
+        <TextView
+            android:id="@+id/priceOfTicket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/addTicketToCart"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginBottom="31dp"
+            android:text="@string/price_of_ticket"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/addTicketToCart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemDetails"
+            android:layout_marginTop="19dp"
+            android:text="@string/add_to_cart"
+            android:backgroundTint="@color/brown_light"/>
+
+        <View
+            android:id="@+id/divider"
+            style="@style/Divider.Horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_below="@+id/addTicketToCart"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="10dp"
+            tools:ignore="MissingConstraints" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+
+

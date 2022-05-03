@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search_bar"
+        android:title="@string/search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"
+    />
+
+    <item
+        android:id="@+id/go_to_cart"
+        android:title="@string/my_cart"
+        android:icon="@drawable/ic_hopping_cart"
+        app:showAsAction="always"
+        app:actionLayout="@layout/custom_menu_item"
+        />
+
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/logout"
+        android:title="@string/log_out"
+        app:showAsAction="never"
+        />
+</menu>

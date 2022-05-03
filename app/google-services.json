@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "530150105397",
+    "project_id": "museumtickets-21687",
+    "storage_bucket": "museumtickets-21687.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530150105397:android:48a36cb69f9a7ce4e1ec7c",
+        "android_client_info": {
+          "package_name": "hu.mobilalk.museum_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530150105397-vgnqt4l359f6334mife0thjagg4dvu7e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hu.mobilalk.museum_app",
+            "certificate_hash": "ff83b09ab26ba3fcf7d34c46b261d3be73171940"
+          }
+        },
+        {
+          "client_id": "530150105397-8osf594pd1b8qsd5rnmdl8femjdsfcen.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj3CV8OsjOwKlOB3phBImGcngvka4IPgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530150105397-8osf594pd1b8qsd5rnmdl8femjdsfcen.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

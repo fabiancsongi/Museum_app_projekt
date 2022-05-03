@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Múzeum</string>
+    <string name="loginButton">Belépés</string>
+    <string name="password">Jelszó</string>
+    <string name="name">Felhasználónév</string>
+    <string name="registerButton">Regisztráció</string>
+    <string name="registration">Regisztráció</string>
+    <string name="familyName">Vezetéknév</string>
+    <string name="FirstName">Keresztnév</string>
+    <string name="userName">Felhasználónév</string>
+    <string name="emailAdress">E-mail cím</string>
+    <string name="passwordAgain">Jelszó újra</string>
+    <string name="yearOfBirth">Év</string>
+    <string name="monthOfBirth">Hónap</string>
+    <string name="dayOfBirth">Nap</string>
+    <string name="birthDate">Születési dátum:</string>
+    <string name="phoneNumber">Telefonszám</string>
+    <string name="picture_of_a_museum_desc">Picture of a museum</string>
+    <string name="loginAsGuest">Belépés vendégként</string>
+    <string name="loginWithGoogle">Belépés Google-lel</string>
+    <string name="item_title">Jegy címe</string>
+    <string name="item_details">Több részlet a jegyről</string>
+    <string name="price_of_ticket">1000 Ft</string>
+    <string name="add_to_cart">Kosárba</string>
+    <string name="go_to_tickets">Jegyvásárlás</string>
+    <string name="log_out">Kijelentkezés</string>
+    <string name="settings">Beállítások</string>
+    <string name="my_cart">Kosaram</string>
+    <string name="search">Keresés</string>
+    <string name="remove">Törlés</string>
+    <string name="amount">3</string>
+    <string name="museumDescription">A múzeum Szeged szívében, a Tisza-part és a Belvárosi híd találkozásánál fekszik, patinás épülete a városkép meghatározó része. Az intézmény a régió kiemelkedő kulturális központja. Állandó és folyamatosan megújuló időszaki kiállításai mellett komoly régészeti, néprajzi, irodalomtörténeti, történettudományi, természettudományi és numizmatikai kutatómunka folyik a Kultúrpalota falai között.</string>
+    <string name="museumTitle">Múzeumunkról</string>
+
+    <!--    ticketlist activity része-->
+    <string-array name="tickets_titles">
+        <item>Felnőtt belépő</item>
+        <item>Gyermek belépő</item>
+        <item>Diák belépő</item>
+        <item>Családi_1 belépő</item>
+        <item>Családi_2 belépő</item>
+        <item>Csoportos belépő</item>
+    </string-array>
+    <string-array name="tickets_descriptions">
+        <item>1 felnőtt (16 év felett)</item>
+        <item>1 gyermek (16 év alatt)</item>
+        <item>1 diák (érvényes diákigazolvánnyal)</item>
+        <item>2 gyermek + 2 felnőtt</item>
+        <item>3 gyermek + 2 felnőtt</item>
+        <item>10 felnőtt</item>
+    </string-array>
+    <string-array name="tickets_prices">
+        <item>1500 Ft</item>
+        <item>1000 Ft</item>
+        <item>1000 Ft</item>
+        <item>5000 Ft</item>
+        <item>6000 Ft</item>
+        <item>14500 Ft</item>
+    </string-array>
+</resources>
